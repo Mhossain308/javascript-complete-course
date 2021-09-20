@@ -194,7 +194,6 @@ if(favourite === 23){
 
 if(favourite !== 23) console.log("why not 23")
 
-*/
 
 // boolean logic 
 
@@ -220,12 +219,9 @@ if(hasDriversLicense && hasGoodVision && !isTired) {
 } else {
     console.log('Someone else should drive...')
 }
+*/
 
-
-
-
-
-
+// switch statement 
 
 
 
