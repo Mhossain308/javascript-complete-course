@@ -104,7 +104,7 @@ console.log(`string
 multiple
 lines`);
 
-*/
+
 
 
 // if else statements 
@@ -133,9 +133,93 @@ if(birthYear <= 2000) {
 
 // type conversion and coercion
 
+// conversion
+const inputYear = '1991';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18)
+
+console.log('i am '  +  23 + ' years old')
+console.log('23' - '10' - 2)
+
+console.log(String(23), 23)
+
+// type coercien
+
+console.log(' I am ' +  23  + ' years old ')
+
+console.log('23' - '10' - 3)
+console.log('23' > '18')
+
+
+// truthy and falsey values
+
+//falsy values : 0, '', undefined, null, NaN
+
+console.log(Boolean(0))
+console.log(Boolean(undefined))
+console.log(Boolean('jonas'))
+console.log(Boolean({}))
+
+
+const money = 0;
+
+if(money) {
+    console.log("Dont spend it all ;) ")
+} else {
+    console.log("You should get a job!");
+}
+
+let height = 0
+if(height) {
+    console.log("Yay height is defined")
+} else {
+    console.log("height is undefined")
+}
 
 
 
+// Equality Operators 
+const age = 18;
+if(age === 18) console.log("you just became an adult")
+
+const favourite =  Number(prompt("whats your favorite number?"));
+
+if(favourite === 23){
+    console.log('Cool! 23 is an amazing number ')
+} else if(favourite === 7) {
+    console.log('7 is also a cool number')
+} else {
+    console.log('number is not 23 or 7')
+}
+
+if(favourite !== 23) console.log("why not 23")
+
+*/
+
+// boolean logic 
+
+const hasDriversLicense = true ; // A
+const hasGoodVision = true; // B 
+
+console.log(hasDriversLicense || hasGoodVision);
+console.log(hasDriversLicense && hasGoodVision);
+console.log(!hasDriversLicense)
+
+const shouldDrive = hasDriversLicense && hasGoodVision
+
+//if(shouldDrive) {
+  //  console.log('Sarah can drive')
+//} else {
+  //  console.log('Someone else should drive ...')
+//}
+
+
+const isTired = true;
+if(hasDriversLicense && hasGoodVision && !isTired) {
+    console.log('sarah is able to drive')
+} else {
+    console.log('Someone else should drive...')
+}
 
 
 
