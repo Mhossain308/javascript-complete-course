@@ -219,9 +219,68 @@ if(hasDriversLicense && hasGoodVision && !isTired) {
 } else {
     console.log('Someone else should drive...')
 }
-*/
+
 
 // switch statement 
+
+
+const day = 'monday';
+
+switch(day) {
+    case 'monday':  // day === monday
+        console.log('plan course structure');
+        console.log(' Go to coding meetup');
+        break;
+    case 'tuesday':
+        console.log('prepare theory videos')
+        break;
+    case 'wednesday' :
+    case 'thursday':
+        console.log('Write code examples')
+        break;
+    case 'friday':
+        console.log('make videos ')
+        break
+    case 'saturday':
+    case 'sunday':
+        console.log('enjoy the weekend')
+        break
+}
+
+
+
+//statements and expressions
+
+// 3 + 4 <- is an expression 
+// 1991
+// true && false && !false
+
+//actions are statements 
+
+// if else statements switch statements 
+
+
+
+// the conditional operator 
+
+const age = 23;
+age >= 18 ? console.log('i like to drink wine') : 
+console.log('i like to drink water');
+
+
+ const drink = age >= 18 ? 'wine' : 'water'
+ console.log(drink);
+
+let drink2;
+if(age >= 18) {
+    drink2= 'wine'
+} else {
+    drink2= 'water';
+}
+console.log(drink2)
+console.log(`i like to drink ${drink}`)
+*/
+
 
 
 
