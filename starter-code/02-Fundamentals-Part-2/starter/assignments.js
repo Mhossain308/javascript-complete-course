@@ -1,4 +1,5 @@
 'use strict';
+/*
 // coding challenge #1
 const calcAverage = (a, b, c,) => (a + b + c) / 3;
 console.log(calcAverage(3, 4, 5))
@@ -20,3 +21,4 @@ const checkWinner = function (avgDolphins, avgKoalas) {
 }
 checkWinner(scoreDolphin, scoreKoalas)
 checkWinner(576, 111)
+*/

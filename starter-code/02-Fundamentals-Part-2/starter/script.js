@@ -111,10 +111,58 @@ console.log(yearsUntillRetirement(1991, 'Mohamed'))
 console.log(yearsUntillRetirement(1950, 'james'))
 
 
+
+
+// Arrays 
+
+const friends = ['Michael', 'james',"john"]
+console.log(friends)
+
+//const years = [1991, 1992, 1993]
+
+
+console.log(friends[0]) // indexes start at 0
+console.log(friends[2])
+console.log(friends.length)
+console.log(friends[friends.length - 1]) // 3-1 = 2 which is the index of 2 
+
+friends[2] = "Mohamed" //replaced index of 2
+console.log(friends);
+
+const firstName = 'Mohamed'
+
+const mohamed = [firstName, 'Hossain', 2021 - 1995, 'student', friends]
+console.log(mohamed)
+console.log(mohamed.length)
+
+
+const calcAge = function (birthYear) {
+    return 2037 - birthYear;
+}
+const years = [1991, 1992, 1994, 2000]
+
+const age1 = calcAge(years[0])
+const age2 = calcAge(years[1])
+const age3 = calcAge(years[years.length - 1])
+
+console.log(age1, age2, age3)
 */
+//array methods
+//push to end of array
+//unshift to the beginning of the array
 
+const friends = ['Michael', 'james',"john"]
 
+friends.push("jay");
 
+friends.unshift('bob')
+console.log(friends)
 
+friends.pop() //remove elements from the last
+console.log(friends)
 
+friends.shift() // removees element from the first of the array
+console.log(friends)
+
+console.log(friends.indexOf('james'))
 
